@@ -1,0 +1,103 @@
+body{
+    background-image: url(./endless-constellation\ \(1\).svg);
+}
+nav ul{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    background-image: url(./endless-constellation\ \(2\).svg);
+    margin-top: 1rem;
+    justify-content: center;
+    font-family: Lato;
+    color: white;
+    border-radius: 4rem;
+}
+nav li{
+    display: flex;
+    margin: auto;
+    padding: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 2rem;
+    color: white;
+}
+nav li img{
+    display: flex;
+    width: 16rem;
+    height: 11rem;
+}
+nav li a:hover{
+    background-color: black;
+    border-radius: 1rem;
+    transition-duration: 1s;
+    padding: .3rem;
+}
+a:visited{
+    color: paleturquoise;
+}
+a:link{
+    text-decoration: none;
+}
+@font-face{
+    font-family: Lato;
+    src:url(./Lato-Regular.ttf);
+}
+grid{
+    display: grid;
+    grid-template-rows: [one] 1fr [two] 1fr [three];
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    padding: 5px;
+    gap: [row gap] [col gap];
+    gap: 1rem 1rem;
+    width: 90%;
+    margin: auto;
+}
+.img1{
+    display: flex;
+    grid-area: img1;
+    grid-row: one/two;
+    grid-column: 1/2;
+}
+.img2{
+    display: flex;
+    grid-area: img2;
+    grid-row: one/two;
+    grid-column: 2/3;
+}
+.img3{
+    display: flex;
+    grid-area: img3;
+    grid-row: one/two;
+    grid-column: 3/4;
+}
+.img4{
+    display: flex;
+    grid-area: img4;
+    grid-row: one/two;
+    grid-column: 4/5;
+}
+.img5{
+    display: flex;
+    grid-area: img5;
+    grid-row: two/three;
+    grid-column: 1/2;
+}
+.img6{
+    display: flex;
+    grid-area: img6;
+    grid-row: two/three;
+    grid-column: 2/3;
+}
+.img7{
+    display: flex;
+    grid-area: img7;
+    grid-row: two/three;
+    grid-column: 3/4;
+}
+.img8{
+    display: flex;
+    grid-area: img8;
+    grid-row: two/three;
+    grid-column: 4/5;
+}
